@@ -1,0 +1,47 @@
+{
+    "name": "nuclear/users",
+    "description": "User and permission system scaffolds for the Nuclear CMS.",
+    "license": "MIT",
+    "keywords": [
+        "kenarkose",
+        "nuclear",
+        "nuclearcms",
+        "users",
+        "roles",
+        "permissions",
+        "authentication",
+        "authorization",
+        "laravel",
+        "laravel5"
+    ],
+    "version": "0.9.0",
+    "authors": [
+        {
+            "name": "Hyleeh",
+            "email": "egemen@kenarkose.com",
+            "homepage": "http://egemenkizilcan.com",
+            "role": "Developer / Designer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "kenarkose/chronicle": "~1.2",
+        "kenarkose/sortable": "~1.2",
+        "nicolaslopezj/searchable": "^1.9",
+        "laracasts/presenter": "0.2.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.2",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nuclear\\Users\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests"
+        ]
+    }
+}
