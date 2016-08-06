@@ -67,7 +67,6 @@ class PermissionsTableSeeder extends Seeder
     protected function getAdminPermissionsList()
     {
         return [
-            'ACCESS_REACTOR',
             'ACCESS_MAINTENANCE',
             'ACCESS_NODETYPES',
             'EDIT_NODETYPES',
