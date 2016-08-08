@@ -80,6 +80,7 @@ class PermissionsTableSeeder extends Seeder
             'EDIT_SETTINGS',
             'ACCESS_SETTINGSMODIFY',
             'EDIT_SETTINGSMODIFY',
+            'ACCESS_UPDATE',
             'ACCESS_USERS',
             'EDIT_USERS'
         ];
