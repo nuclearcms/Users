@@ -120,4 +120,14 @@ class User extends Authenticatable implements PresentableInterface
         return $this->hasMany(Activity::class);
     }
 
+    /**
+     * Checks if the user is a superadmin
+     *
+     * @return bool
+     */
+    public function isSuperAdmin()
+    {
+        return $this->hasRole('SUPERADMIN') || $this->hasPermission('SUPERADMIN');
+    }
+
 }
