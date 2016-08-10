@@ -31,7 +31,7 @@ class Permission extends Model
      *
      * @var array
      */
-    protected $sortableColumns = ['name'];
+    protected $sortableColumns = ['name', 'created_at'];
 
     /**
      * Default sortable key

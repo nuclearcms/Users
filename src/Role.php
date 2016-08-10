@@ -24,7 +24,7 @@ class Role extends Model
      *
      * @var array
      */
-    protected $sortableColumns = ['label', 'name'];
+    protected $sortableColumns = ['label', 'name', 'created_at'];
 
     /**
      * Default sortable key
