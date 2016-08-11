@@ -13,6 +13,13 @@ class Role extends Model
     use Sortable, SearchableTrait, HasPermissions, RecordsActivity;
 
     /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var array
@@ -24,7 +31,7 @@ class Role extends Model
      *
      * @var array
      */
-    protected $sortableColumns = ['label', 'name', 'created_at'];
+    protected $sortableColumns = ['label', 'name'];
 
     /**
      * Default sortable key
