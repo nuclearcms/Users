@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateHomeFieldForUsersTable extends Migration
+class UsersCreateHomeFieldForUsersTable extends Migration
 {
     /**
      * Run the migrations.
