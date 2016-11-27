@@ -23,7 +23,7 @@ class User extends Authenticatable implements PresentableInterface
      *
      * @var array
      */
-    protected $fillable = ['email', 'first_name', 'last_name'];
+    protected $fillable = ['email', 'first_name', 'last_name', 'home'];
 
     /**
      * The attributes excluded from the model's JSON form.
