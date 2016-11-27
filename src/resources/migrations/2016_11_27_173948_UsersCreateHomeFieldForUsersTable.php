@@ -14,13 +14,8 @@ class UsersCreateHomeFieldForUsersTable extends Migration
     {
         \Schema::table('users', function (Blueprint $table)
         {
-            $table->unsignedInteger('home')
+            $table->string('home')
                 ->nullable();
-
-            $table->foreign('home')
-                ->references('id')
-                ->on('nodes')
-                ->onDelete('set null');
         });
     }
 
